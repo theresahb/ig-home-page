@@ -1,0 +1,434 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+.nav-menu .menus,
+.ig-logo {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+aside {
+    position: fixed;
+    width: 15%;
+    border: 1px solid #e7e7e7;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 100vh;
+    padding: 1.5rem 0 1.5rem 1.5rem;
+}
+
+.logo {
+    width: 7rem;
+}
+
+.logo-links {
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.sidebar-menu img,
+.more  {
+    width: 1.2rem;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+.more-li {
+    align-items: center;
+    column-gap: 1rem;
+    font-size: .8rem;
+    font-weight: 500;
+    color: #453f48;
+}
+
+.side-menu {
+    flex-direction: column;
+    row-gap: 1.7rem;
+}
+
+.menus a,
+.more a {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.menus a p,
+.more a p {
+    font-size: .8rem;
+    color: #453f48;
+}
+
+.m-image,
+.more a img {
+    width: 1.2rem;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+.container {
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 2rem;
+    margin-left: 17%;
+}
+
+.home {
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.update {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 0 0;
+    width: 100%;
+}
+
+.up-image {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 2px;
+    background: linear-gradient(45deg, rgb(255, 230, 0), rgb(255, 0, 128) 80%);
+}
+
+.up-image img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.up {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+}
+
+.posts {
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.post {
+    flex-direction: column;
+    row-gap: .5rem;
+    padding: 0 0 1rem 0;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.title {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-username {
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.post-logo {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 2px;
+    background: linear-gradient(45deg, rgb(255, 230, 0), rgb(255, 0, 128) 80%);
+}
+
+.post-logo img {
+    border-radius: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.username p,
+.b-news a {
+    font-weight: 700;
+    color: #453f48;
+}
+
+.username p,
+.likes p,
+.b-news p,
+.view p,
+.add p {
+    font-size: .7rem;
+}
+
+.view p,
+.add p {
+    color: #bdbdbd;
+}
+
+.option {
+    width: 1.2rem;
+}
+
+.main-image {
+    width: 23rem;
+}
+
+.main-image img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.like-comment {
+    justify-content: space-between;
+}
+
+.lcs-image,
+.save-image {
+    width: 1.2rem;
+}
+
+.left-part {
+    column-gap: .5rem;
+}
+
+.b-news {
+    column-gap: .3rem;
+}
+
+.follow {
+    flex-direction: column;
+    row-gap: .5rem;
+    padding: 4rem 0 0 0;
+    width: 15rem;
+}
+
+.suggestions {
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+.switch,
+.suggest {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thess,
+.suggested {
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.dp {
+    width: 2.7rem;
+}
+
+.dp img {
+    border-radius: 50%;
+}
+
+.user {
+    flex-direction: column;
+}
+
+.user p {
+    font-size: .7rem;
+    font-weight: 500;
+}
+
+.user a {
+    color: #453f48;
+}
+
+.user p:last-child {
+    color: #bdbdbd;
+}
+
+.switch-acc p,
+.follow-acc p {
+    cursor: pointer;
+    font-size: .6rem;
+    color: #61bdf9;
+    font-weight: 500;
+}
+
+.suggest-text {
+    justify-content: space-between;
+}
+
+.suggest-text p {
+    font-size: .7rem;
+}
+
+.suggest-text p:first-child {
+    color: #939393;
+    font-size: .7rem;
+    font-weight: 500;
+}
+
+.suggest-text p:last-child {
+    color: #6e6e6e;
+    font-size: .6rem;
+    font-weight: 500;
+}
+
+.suggested .dp {
+    width: 1.8rem;
+}
+
+.suggested .user p:last-child {
+    font-size: .6rem;
+    font-weight: 500;
+}
+
+.foot {
+    padding: .5rem 0 0 0;
+}
+
+.f-links {
+    flex-wrap: wrap;
+}
+
+.f-links li a {
+    color: #bdbdbd;
+    font-size: .6rem;
+    font-weight: 500;
+}
+
+.f-links li{
+    color: #bdbdbd;
+    font-size: .5rem;
+}
+
+.copyright small {
+    color: #bdbdbd;
+    font-size: .6rem;
+    font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+    aside {
+        width: 8%;
+    }
+
+    .logo-links {
+        row-gap: 4rem;
+    }
+
+    .insta-logo,
+    .menus p,
+    .more p {
+        display: none;
+    }
+
+    .ig-logo {
+        display: block;
+    }
+
+    .logo {
+        width: 1.2rem;
+    }
+
+    .container {
+        margin-left: 9%;
+    }
+}
+
+@media (max-width: 800px) {
+    .sidebar-nav {
+        align-items: center;
+        padding: 1.5rem 0;
+    }
+
+    .container {
+        margin-left: 8%;
+    }
+    
+    .follow {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo,
+    aside {
+        display: none;
+    }
+
+    .nav-menu .menus{
+        display: flex;
+    }
+
+    .nav-menu {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: .6rem 3.5rem;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        overflow: hidden;
+        background-color: #ffffff;
+        border-top: 1px solid #e7e7e7;
+    }
+
+    .menus:nth-child(2) .m-image{
+        width: 1.5rem;
+    }
+
+    .container {
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0 0 2rem 0;
+        
+    }
+}
+
+@media (max-width: 370px) {
+    main {
+        width: max-content;
+    }
+
+    .up-image {
+        width: 2.9rem;
+        height: 2.9rem;
+    }
+}
